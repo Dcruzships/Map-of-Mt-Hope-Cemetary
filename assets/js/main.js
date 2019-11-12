@@ -8,9 +8,28 @@ function initMap()
   let mapOptions =
   {
     center: {lat:43.128658, lng:-77.620677},
+    minZoom: 10,
+    maxZoom: 50,
     zoom:18,
-    mapTypeId: google.maps.MapTypeId.ROADMAP
+    mapTypeId: google.maps.MapTypeId.ROADMAP,
+    restriction:
+    {
+      latLngBounds:
+      {
+        east: -77.6068,
+        north: 43.1374,
+        south: 43.1231,
+        west: -77.6309
+      },
+      strictBounds: true,
+    }
   };
+
+  // Bounds for North America
+  let strictBounds = new google.maps.LatLngBounds(
+    new google.maps.LatLng(28.70, -127.50),
+    new google.maps.LatLng(48.85, -55.90)
+  );
 
   map = new google.maps.Map(document.querySelector("#map"), mapOptions);
 
@@ -47,7 +66,7 @@ function addMarker(latitude, longitude, title, url)
   // Add a listener for the click event
   google.maps.event.addListener(marker, 'click', function(e)
   {
-    window.open(this.url);
+    // window.open(this.url);
     makeInfoWindow(this.position, this.title);
   });
 }
