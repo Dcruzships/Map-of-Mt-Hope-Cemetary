@@ -38,9 +38,10 @@ function initMap()
     let lat = trash[i].latitude;
     let long = trash[i].longitude;
     let name = trash[i].title;
+    let cat = trash[i].category;
     let pic = trash[i].url;
 
-    addMarker(lat, long, name, pic);
+    addMarker(lat, long, name, pic, cat);
   }
 }
 
@@ -57,10 +58,18 @@ function makeInfoWindow(position, msg)
   });
 }
 
-function addMarker(latitude, longitude, title, url)
+function addMarker(latitude, longitude, title, url, category)
 {
   let position = {lat: latitude, lng: longitude};
   let marker = new google.maps.Marker({position: position, map: map, url: url});
+  if(category == "dead")
+  {
+    marker.setIcon('http://maps.google.com/mapfiles/ms/icons/purple-dot.png')
+  }
+  else
+  {
+    marker.setIcon('http://maps.google.com/mapfiles/ms/icons/red-dot.png')
+  }
   marker.setTitle(title);
 
   // Add a listener for the click event
