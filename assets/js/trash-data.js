@@ -204,11 +204,11 @@ const symbols =
 
   {
     id: "symbol04",
-    name: "OES Star",
+    name: "Square and a Compass, with Letter G",
     category: "symbology",
     latitude: 43.13141389,
     longitude: -77.61521111,
-    body: "Font: Roboto Slab"
+    body: "The compass and ruler is a symbol of Freemasonry. The ‘G’ stands for Geometry, and serves as a reminder that Geometry and Freemasonry are one in the same. The person buried was clearly a Freemason."
   },
 
   {
@@ -222,20 +222,20 @@ const symbols =
 
   {
     id: "symbol06",
-    name: "OES Star",
+    name: "Lamb",
     category: "symbology",
     latitude: 43.12988333,
     longitude: -77.61881389,
-    body: "Font: Roboto Slab"
+    body: "The lamb is a symbol of innocence. Oftentimes found on the graves of babies and children. The photo above is marked 1881 - 1882."
   },
 
   {
     id: "symbol07",
-    name: "OES Star",
+    name: "Caduceus, Staff of Hermes",
     category: "symbology",
     latitude: 43.12932222,
     longitude: -77.61921667,
-    body: "Font: Roboto Slab"
+    body: "Commonly used in the field of medicine, the Staff of Hermes portrays two serpents coiled around a short staff. As in this example, sometimes wings are present. Typically, the Caduceus will appear on gravestones of doctors and other medical professionals. If the snakes are wrapped around a cross, it symbolizes the rebirth of Jesus."
   },
 
   {
@@ -285,20 +285,20 @@ const symbols =
 
   {
     id: "symbol13",
-    name: "OES Star",
+    name: "👑",
     category: "symbology",
     latitude: 43.13026944,
     longitude: -77.61557778,
-    body: "Font: Roboto Slab"
+    body: "When crowns appear on gravestones, it’s usually a reference to the divine ascension to the afterlife."
   },
 
   {
     id: "symbol14",
-    name: "OES Star",
+    name: "Harp",
     category: "symbology",
     latitude: 43.13077222,
     longitude: -77.61511111,
-    body: "Font: Roboto Slab"
+    body: "When a harp appears on a gravestone, it is usually symbolic of heavenly music in the afterlife. Detailed carvings portraying a broken string indicate that a life was cut short."
   },
 
   {

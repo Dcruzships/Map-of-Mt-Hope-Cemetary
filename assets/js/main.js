@@ -160,7 +160,7 @@ function initMap() {
     restriction: {
       latLngBounds: {
         east: -77.6068,
-        north: 43.1374,
+        north: 43.1394,
         south: 43.1231,
         west: -77.6309
       },
@@ -314,8 +314,8 @@ function addMarkers(set) {
       // lat += rand * 5;
       // long += rand * 5;
 
-      name = id;
-      body = "where am i?";
+      // name = id;
+      // body = "where am i?";
     }
 
     if(id == "em14" || id == "em22")
