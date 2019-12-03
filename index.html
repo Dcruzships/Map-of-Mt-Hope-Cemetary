@@ -6,7 +6,8 @@
   <meta name="viewport" content="initial-scale=1.0">
   <meta charset="utf-8">
 
-  <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Solway&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="assets/styles.css">
   <link rel="stylesheet" src="https://bootswatch.com/4/sketchy/bootstrap.min.css">
 
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBBivIU61cm_P14KQDe9nWIhZr3lXyTZAA&callback=initMap" async defer></script>
@@ -14,6 +15,16 @@
 
 <body>
   <div id="map"></div>
+  <p id="coords"></p>
+  <div id="controls">
+    <p><button id="deadButton" onclick="toggleButton('#deadButton')" value="off">x x x x x</button></p>
+    <p><button id="symbologyButton" onclick="toggleButton('#symbologyButton')" value="off">x x x x x</button></p>
+    <p><button id="emilyButton" onclick="toggleButton('#emilyButton')" value="off">x x x x x</button></p>
+    <p><button id="trailsButton" onclick="toggleButton('#trailsButton')" value="off">x x x x x</button></p>
+  </div>
+
+  <p id="title">Mt. Hope Cemetary, Rochester, NY 14623</p>
+
   <script src='assets/js/trash-data.js'></script>
   <script src='assets/js/main.js'></script>
 </body>

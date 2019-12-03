@@ -1,0 +1,94 @@
+#map {
+  margin: 0 auto;
+  margin-top: 2.5%;
+  height: 90%;
+  width: 95%;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+button {
+  position: absolute;
+  background-color: black;
+  border: solid;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 28px;
+  width: 150px;
+  height: 50px;
+}
+
+#coords {
+  border: dotted;
+  position: absolute;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  height: 25px;
+  width: 165px;
+  z-index: 100;
+  top: 5vh;
+  left: 86vw;
+}
+
+#deadButton {
+  top: 9vh;
+  left: 4vw;
+}
+#symbologyButton {
+  top: 17vh;
+  left: 4vw;
+}
+#emilyButton {
+  top: 25vh;
+  left: 4vw;
+}
+#trailsButton {
+  top: 33vh;
+  left: 4vw;
+  display: none;
+}
+
+.info {
+  color: white;
+  background-color: black;
+  text-align: center;
+  font-family: 'Solway', serif;
+}
+
+#infoPort {
+  width: 325px;
+}
+
+#infoLand {
+  width: 525px;
+}
+
+h1 {
+  font-size: 25px;
+}
+
+.info p {
+  word-wrap: break-word;
+  margin: 10px;
+  padding: 5px;
+  border: solid;
+  text-align: left;
+  font-size: 17px;
+}
+
+#title {
+  position: absolute;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  top: 85vh;
+  left: 43vw;
+}
