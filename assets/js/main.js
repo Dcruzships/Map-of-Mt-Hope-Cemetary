@@ -8,6 +8,8 @@ let lngM;
 let deadMarkers = [];
 let symbolMarkers = [];
 let emilyMarkers = [];
+let masterPath = [];
+let trail;
 
 function initMap() {
   let mapOptions = {
@@ -210,6 +212,7 @@ function toggleButton(id) {
     }
     if (id == "#trailsButton") {
       butt.innerHTML = "- - - - - -";
+      showTrails();
     }
   } else {
     butt.value = "off";
@@ -224,7 +227,7 @@ function toggleButton(id) {
       removeMarkers(emilyMarkers);
     }
     if (id == "#trailsButton") {
-      showTrails();
+      removeTrails();
     }
   }
 }
@@ -330,14 +333,43 @@ function removeMarkers(set) {
   for (let i = 0; i < set.length; i++) {
     set[i].setMap(null);
   }
+  set.length = 0;
 }
 
-function showTrails(set)
+function showTrails()
 {
-  let masterPath = [];
+  if(emilyMarkers.length != 0)
+  {
+    for(let x = 0; x < emilyMarkers.length; x++)
+    {
+      masterPath.push(emilyMarkers[x]);
+    }
+  }
+  if(deadMarkers.length != 0)
+  {
+    for(let y = 0; y < deadMarkers.length; y++)
+    {
+      masterPath.push(deadMarkers[y]);
+    }
+  }
+  if(symbolMarkers.length != 0)
+  {
+    for(let z = 0; z < symbolMarkers.length; z++)
+    {
+      masterPath.push(symbolMarkers[z]);
+    }
+  }
 
-  let trail = new google.maps.Polyline({
-    path: masterPath,
+  let coords = [];
+
+  for(let i = 0; i < masterPath.length; i++)
+  {
+    let pathNode = masterPath[Math.floor(Math.random()*masterPath.length)];
+    coords.push(new google.maps.LatLng(pathNode.internalPosition.lat(), pathNode.internalPosition.lng()));
+  }
+
+  trail = new google.maps.Polyline({
+    path: coords,
     geodesic: true,
     strokeColor: '#FF0000',
     strokeOpacity: 1.0,
@@ -345,4 +377,10 @@ function showTrails(set)
   });
 
   trail.setMap(map);
+}
+
+function removeTrails()
+{
+  masterPath = [];
+  trail.setMap(null);
 }

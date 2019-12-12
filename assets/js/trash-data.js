@@ -177,29 +177,29 @@ const symbols =
 [
   {
     id: "symbol01",
-    name: "OES Star",
+    name: "Order of the Eastern Star",
     category: "symbology",
     latitude: 43.13438056,
     longitude: -77.61526389,
-    body: "Font: Roboto Slab"
+    body: "18+ m/f masonic appendant body, formed in 1850. Men must be master masons, women must have relationships with masons. International Temple located in Washington D.C."
   },
 
   {
     id: "symbol02",
-    name: "OES Star",
+    name: "Cross Pattée",
     category: "symbology",
     latitude: 43.13352222,
     longitude: -77.61513611,
-    body: "Font: Roboto Slab"
+    body: "'Footed Cross' - Originated in very early medieval art, d. 628. Associated with the Knights Templar, Teutonic Knights, and Iron Cross."
   },
 
   {
     id: "symbol03",
-    name: "OES Star",
+    name: "BCB",
     category: "symbology",
     latitude: 43.13340833,
     longitude: -77.61496667,
-    body: "Font: Roboto Slab"
+    body: "Initials? Acronym? Engraved on three separate stepping stones. B is rotated apart from the other two letters."
   },
 
   {
@@ -213,11 +213,11 @@ const symbols =
 
   {
     id: "symbol05",
-    name: "OES Star",
+    name: "(another) Square and a Compass, with Letter G",
     category: "symbology",
     latitude: 43.12985278,
     longitude: -77.61668333,
-    body: "Font: Roboto Slab"
+    body: "The compass and ruler is a symbol of Freemasonry. The ‘G’ stands for Geometry, and serves as a reminder that Geometry and Freemasonry are one in the same. The person buried was clearly a Freemason."
   },
 
   {
@@ -240,47 +240,47 @@ const symbols =
 
   {
     id: "symbol08",
-    name: "OES Star",
+    name: "unknown1",
     category: "symbology",
     latitude: 43.12938611,
     longitude: -77.61941667,
-    body: "Font: Roboto Slab"
+    body: "3 circles, or tears, or petals. Triangualr, round, sharp, round. Shaped like a shovel head."
   },
 
   {
     id: "symbol09",
-    name: "OES Star",
+    name: "Angel_1",
     category: "symbology",
     latitude: 43.12928333,
     longitude: -77.61964444,
-    body: "Font: Roboto Slab"
+    body: "I was in a car crash a little while ago. It gave me a heavy concussion and everything was a bit wonky for a while. Afterwards I had a dream where I met God, I forget what he looked like but he said 'Brandon, you're an angel. You're vocation once you get to heaven will be a detective. But you can spend as much time down here as you like, you're new life will be waiting. See you then.' Something like that anyways."
   },
 
   {
     id: "symbol10",
-    name: "OES Star",
+    name: "Angel_2",
     category: "symbology",
     latitude: 43.12940278,
     longitude: -77.61976667,
-    body: "Font: Roboto Slab"
+    body: "An angel is a supernatural being found in all sorts of religions and mythologies. Abrahamic religions think of angels as the intermediaries between God and humanity, like a rope. They can fly around and guide humans and protect on behalf of God."
   },
 
   {
     id: "symbol11",
-    name: "OES Star",
+    name: "Angel_3 with bird",
     category: "symbology",
     latitude: 43.12940278,
     longitude: -77.61977500,
-    body: "Font: Roboto Slab"
+    body: "Cross Pattée above, dancing together."
   },
 
   {
     id: "symbol12",
-    name: "OES Star",
+    name: "Flower",
     category: "symbology",
     latitude: 43.12923333,
     longitude: -77.61985833,
-    body: "Font: Roboto Slab"
+    body: "A flower in a cocoon, 8 wedges."
   },
 
   {
@@ -303,20 +303,20 @@ const symbols =
 
   {
     id: "symbol15",
-    name: "OES Star",
+    name: "Celtic Cross",
     category: "symbology",
     latitude: 43.13245833,
     longitude: -77.61435000,
-    body: "Font: Roboto Slab"
+    body: "Christian cross variation featuring a nimbus in the middle, from Ireland/Britain in the early middle ages. Found in war memorials, necklaces, Scotland, said to have been introduced by Saint Patrick, though no evidence can be found. Symbol of Christianity combined with the sun cross- give pagans an idea of the true value of the cross. The life of the sun, the life of God, back, front, who wins?"
   },
 
   {
     id: "symbol16",
-    name: "OES Star",
+    name: "unknown2",
     category: "symbology",
     latitude: 43.13238889,
     longitude: -77.61452500,
-    body: "Font: Roboto Slab"
+    body: "Woah what is that?"
   }
 ];
 
@@ -324,178 +324,178 @@ const emily =
 [
   {
     id: "em01",
-    name: "OES Star",
+    name: "Emily 1",
     category: "emily",
     latitude: 43.1311,
     longitude: -77.6182,
-    body: "Font: Roboto Slab"
+    body: "copyright emily bishop photography 2019"
   },
   {
     id: "em02",
-    name: "OES Star",
+    name: "Emily 2",
     category: "emily",
     latitude: 43.1305,
     longitude: -77.6177,
-    body: "Font: Roboto Slab"
+    body: "copyright emily bishop photography 2019"
   },
   {
     id: "em03",
-    name: "OES Star",
+    name: "Emily 3",
     category: "emily",
     latitude: 43.1321,
     longitude: -77.6180,
-    body: "Font: Roboto Slab"
+    body: "copyright emily bishop photography 2019"
   },
   {
     id: "em04",
-    name: "OES Star",
+    name: "Emily 4",
     category: "emily",
     latitude: 43.1316,
     longitude: -77.6192,
-    body: "Font: Roboto Slab"
+    body: "copyright emily bishop photography 2019"
   },
   {
     id: "em05",
-    name: "OES Star",
+    name: "Emily 5",
     category: "emily",
     latitude: 43.1304,
     longitude: -77.6204,
-    body: "Font: Roboto Slab"
+    body: "copyright emily bishop photography 2019"
   },
   {
     id: "em06",
-    name: "OES Star",
+    name: "Emily 6",
     category: "emily",
     latitude: 43.1287,
     longitude: -77.6210,
-    body: "Font: Roboto Slab"
+    body: "copyright emily bishop photography 2019"
   },
   {
     id: "em07",
-    name: "OES Star",
+    name: "Emily 7",
     category: "emily",
     latitude: 43.1277,
     longitude: -77.6207,
-    body: "Font: Roboto Slab"
+    body: "copyright emily bishop photography 2019"
   },
   {
     id: "em08",
-    name: "OES Star",
+    name: "Emily 8",
     category: "emily",
     latitude: 43.1266,
     longitude: -77.6217,
-    body: "Font: Roboto Slab"
+    body: "copyright emily bishop photography 2019"
   },
   {
     id: "em09",
-    name: "OES Star",
+    name: "Emily 9",
     category: "emily",
     latitude: 43.1263,
     longitude: -77.6220,
-    body: "Font: Roboto Slab"
+    body: "copyright emily bishop photography 2019"
   },
   {
     id: "em10",
-    name: "OES Star",
+    name: "Emily 10",
     category: "emily",
     latitude: 43.1264,
     longitude: -77.6227,
-    body: "Font: Roboto Slab"
+    body: "copyright emily bishop photography 2019"
   },
   {
     id: "em11",
-    name: "OES Star",
+    name: "Emily 11",
     category: "emily",
     latitude: 43.1267,
     longitude: -77.6233,
-    body: "Font: Roboto Slab"
+    body: "copyright emily bishop photography 2019"
   },
   {
     id: "em12",
-    name: "OES Star",
+    name: "Emily 12",
     category: "emily",
     latitude: 43.1270,
     longitude: -77.6239,
-    body: "Font: Roboto Slab"
+    body: "copyright emily bishop photography 2019"
   },
   {
     id: "em13",
-    name: "OES Star",
+    name: "Emily 13",
     category: "emily",
     latitude: 43.1274,
     longitude: -77.6228,
-    body: "Font: Roboto Slab"
+    body: "copyright emily bishop photography 2019"
   },
   {
     id: "em14",
-    name: "OES Star",
+    name: "Emily 14",
     category: "emily",
     latitude: 43.1271,
     longitude: -77.6221,
-    body: "Font: Roboto Slab"
+    body: "copyright emily bishop photography 2019"
   },
   {
     id: "em15",
-    name: "OES Star",
+    name: "Emily 15",
     category: "emily",
     latitude: 43.1270,
     longitude: -77.6210,
-    body: "Font: Roboto Slab"
+    body: "copyright emily bishop photography 2019"
   },
   {
     id: "em16",
-    name: "OES Star",
+    name: "Emily 16",
     category: "emily",
     latitude: 43.1269,
     longitude: -77.6200,
-    body: "Font: Roboto Slab"
+    body: "copyright emily bishop photography 2019"
   },
   {
     id: "em17",
-    name: "OES Star",
+    name: "Emily 17",
     category: "emily",
     latitude: 43.1273,
     longitude: -77.6195,
-    body: "Font: Roboto Slab"
+    body: "copyright emily bishop photography 2019"
   },
   {
     id: "em18",
-    name: "OES Star",
+    name: "Emily 18",
     category: "emily",
     latitude: 43.1277,
     longitude: -77.6187,
-    body: "Font: Roboto Slab"
+    body: "copyright emily bishop photography 2019"
   },
   {
     id: "em19",
-    name: "OES Star",
+    name: "Emily 19",
     category: "emily",
     latitude: 43.1272,
     longitude: -77.6184,
-    body: "Font: Roboto Slab"
+    body: "copyright emily bishop photography 2019"
   },
   {
     id: "em20",
-    name: "OES Star",
+    name: "Emily 20",
     category: "emily",
     latitude: 43.1276,
     longitude: -77.6181,
-    body: "Font: Roboto Slab"
+    body: "copyright emily bishop photography 2019"
   },
   {
     id: "em21",
-    name: "OES Star",
+    name: "Emily 21",
     category: "emily",
     latitude: 43.1275,
     longitude: -77.6174,
-    body: "Font: Roboto Slab"
+    body: "copyright emily bishop photography 2019"
   },
   {
     id: "em22",
-    name: "OES Star",
+    name: "Emily 22",
     category: "emily",
     latitude: 43.1270,
     longitude: -77.6171,
-    body: "Font: Roboto Slab"
+    body: "copyright emily bishop photography 2019"
   }
 ];
